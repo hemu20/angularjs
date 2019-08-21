@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div ng-app="" ng-init="first=1;last=5">
+<p>Total in dollar: {{ first * last }}</p>
+</div>
+
+</body>
+</html>
